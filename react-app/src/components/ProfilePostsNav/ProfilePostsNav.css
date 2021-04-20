@@ -1,0 +1,36 @@
+.profile-posts-nav {
+  margin: auto;
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-posts-nav.four {
+  width: 440px;
+}
+
+.profile-posts-nav-option {
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: rgb(142, 142, 142);
+  padding: 16px 0px 18px 0px;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.profile-posts-nav-option svg {
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.profile-posts-nav-option:active:hover {
+  color: rgb(219, 219, 219);
+}
+
+.profile-posts-nav-option-active {
+  color: rgb(38, 38, 38);
+  border-top: 1px solid rgb(38, 38, 38);
+  margin-top: -1px;
+}

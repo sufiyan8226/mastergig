@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+.message-page-main-div {
+  width: 70vw;
+  height: 80vh;
+  margin: 70px 0px 50px;
+  display: flex;
+  /* border: 2px solid black; */
+  margin-top: 100px;
+}
+
+.message-page-left-panel,
+.message-page-right-panel {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  height: 100%;
+}
+.message-page-left-panel {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.message-page-right-panel {
+  /* border-left: 1px solid gray;
+  border-right: 1px solid gray; */
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.top-left-div,
+.top-right-div {
+  height: 65px;
+  border-bottom: 1px solid gray;
+}
+.top-left-div {
+  padding: 5px 0px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.middle-left-div {
+  height: 60px;
+  border-bottom: 1px solid gray;
+}
+.main-left-div {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-y: scroll;
+  margin: 5px 0px 10px 10px;
+}
+
+.main-right-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* height: 40vh; */
+  max-height: fit-content;
+  height: 90%;
+}
+.message-pannel-div {
+  margin: 5px;
+  padding: 5px;
+  /* position: relative; */
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.messages-div {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 5px 10px;
+  width: 100%;
+  /* position: fixed; */
+  /* bottom: 60px; */
+}
+.message-typing-box-div {
+  height: 50px;
+  /* position: fixed; */
+  /* bottom: 5px; */
+  width: 100%;
+}
+
+.message-input-box {
+  width: 70%;
+  background-color: white;
+  /* padding: 0px;
+  height: 50px; */
+  /* resize: none; */
+}
+.message-input-box-draftjs {
+  width: 100%;
+  background-color: white;
+  padding: 0px;
+  height: 50px;
+  /* resize: none; */
+  /* display: flex;
+  flex-direction: row; */
+}
+.inner-message-input-box-draftjs {
+  width: 100%;
+  background-color: white;
+  padding: 0px;
+  height: 100%;
+  /* resize: none; */
+}
+.message-input-form {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.empty-message-box-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+.title-and-button-message-box-div {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.title-message-box-div {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 5px;
+}
+.subtitle-message-box-div {
+  font-size: 18px;
+  margin: 5px;
+}
+.button-message-box-div {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.message-bubble-container-me-right {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.message-bubble-container-them-left {
+  width: 100%;
+  display: flex;
+}
+.message-bubble-me-right,
+.message-bubble-them-left {
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: fit-content;
+  max-width: 80%;
+  padding: 5px;
+  margin: 2px 0px;
+}
+
+.message-and-profileimg-bubble-me-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.message-and-profileimg-bubble-them-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.user-name {
+  font-size: 25px;
+  font-family: "Arial";
+}
+
+.durp {
+  /* background: linear-gradient(to right, #4e4376, #2b5876); */
+  background-color: white;
+}
